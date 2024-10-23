@@ -1,0 +1,170 @@
+@charset "UTF-8";
+body{
+	font-family: "Quicksand", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	background-color:#CFDBAC;
+	margin: 0px;
+	
+	
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+header {
+	background-color:#36795D;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+h1, h2, h3, h4, h5 {
+  	font-optical-sizing: auto;
+ 	font-weight:700;
+  	font-style: normal;
+	padding-left: 20%;
+	padding-right:20%;
+}
+h1 {
+	color:#1B7850;
+	padding-left: 30%;
+	padding-right:20%;	
+}
+p {
+	font-weight:100;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 19px;
+	text-align: left;
+}
+a {
+	text-align: left;
+}
+h3 {
+	padding-left: 21%;
+	
+}
+h2 {
+	color: #196143;
+}
+.wrapper {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.rightAlign{
+	float: right;
+	padding-left: 100px;
+}
+.leftAlign{
+	float: left;
+	padding-right: 100px;
+}
+p{
+	padding-left: 20%;
+}
+img{
+	float: right;
+
+	
+}
+.left {
+	float:left;
+	padding-right: 3%;
+}
+a {
+	color:#826C00;
+	
+}
+.footclass {
+	color: #006241
+}
+a:hover {
+	color:#154C36;
+	background-color: #98CDB7
+}
+
+.button a {
+	background-color:goldenrod;
+	color: #154833;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.button a:hover {
+	background-color: darkgoldenrod;
+	color: #154C36
+	
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quote {
+	color: #DAA521;
+	font-size: 48pt;
+	padding-left: 20%;
+	padding-right:21%;
+}
+.process {
+	color: #DAA521;
+}
+
+.padfix {
+	padding-left: 20%;
+	padding-right:20%;
+}
+
+.buttonleft {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	float: left;
+	padding-left: 35%;
+	
+	
+}
+.buttonright {
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	padding-right: 35%;
+	padding-left: 10%;
+	
+	
+}
+footer {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	background-color:#B9C798;
+}
